@@ -478,7 +478,7 @@ nav ul li a:hover::after{
 }
 
 
-.submit-to-google-sheet{
+.submit-to-google-sheets{
     width: 20%;
     padding-top: 31%;
 }
@@ -669,7 +669,7 @@ nav .fa-solid{
     padding-top: 150px;
     margin-left: 35px;
     }
-    .submit-to-google-sheet {
+    .submit-to-google-sheets {
     width: 40%;
     padding-top: 30px;
     }
@@ -687,7 +687,7 @@ nav .fa-solid{
     padding-top: 100px;
     margin-left: 10px;
     }
-    .submit-to-google-sheet {
+    .submit-to-google-sheets {
     width: 50%;
     padding-top: 20px;
     }
