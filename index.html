@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Personal Portfolio Website - Fidel Genre </title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+<script type="text/javascript">
+(function(){
+    emailjs.init({
+        publicKey: "83m1G3EBgMW3aEhX",
+    });
+})();
+</script>
+
 </head>
 
 <body>
@@ -160,12 +172,12 @@
 <div id="contact">
     <div class="container-c">
         <div class="contact-right">
-            <form class="submit-to-google-sheet">
+            <form class="submit-to-google-sheets" onsubmit="sendEmail(); reset(); return false;">
                 <h1 class="sub-title-c">Contact Me</h1>
-                <input type="text" name="Name" placeholder="Your Name" required>
-                <input type="email" name="Email" placeholder="Your Email" required>
-                <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
-                <button type="submit" class="btn btn2">Submit</button>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" rows="6" placeholder="Your Message" ></textarea>
+                <button type="submit" class="btn btn2" onclick="sendMail()">Submit</button>
             </form>    
             <span id="msg"></span>
         </div>
