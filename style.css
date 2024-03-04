@@ -478,7 +478,7 @@ nav ul li a:hover::after{
 }
 
 
-.submit-to-google-sheet{
+.submit-to-google-sheets{
     width: 20%;
     padding-top: 31%;
 }
@@ -541,7 +541,27 @@ nav .fa-solid{
     display: none;
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (min-width: 1921px){
+    
+    .fidel{
+        display: none;
+    }
+
+    .genre{
+        display: none;
+    }
+
+    .software{
+        display: none;
+    }
+
+    .developer{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1328px){
     /*home responsive*/
     #header{
         background-image: url(assets/formandibujito\ -\ Copy.jpg);
@@ -602,7 +622,24 @@ nav .fa-solid{
         display: none;
     }
 
+    .circle{
+        display: none;
+    }
 
+    .container-c {
+        width: 90%;
+        padding-top: 150px;
+        margin-left: 35px;
+        }
+        .submit-to-google-sheets {
+        width: 40%;
+        padding-top: 30px;
+        }
+        .sub-title-c,
+        p i {
+        font-size: 2.5rem;
+        }
+    
 
     /*home responsive*/
 
@@ -641,13 +678,13 @@ nav .fa-solid{
 
 /*contact responsive*/
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     .container-c {
     width: 90%;
     padding-top: 150px;
     margin-left: 35px;
     }
-    .submit-to-google-sheet {
+    .submit-to-google-sheets {
     width: 40%;
     padding-top: 30px;
     }
@@ -665,7 +702,7 @@ nav .fa-solid{
     padding-top: 100px;
     margin-left: 10px;
     }
-    .submit-to-google-sheet {
+    .submit-to-google-sheets {
     width: 50%;
     padding-top: 20px;
     }
@@ -737,6 +774,22 @@ nav .fa-solid{
         border: #cfbec3;
     }
     /*about responsive*/
+}
+
+@media (max-width: 430px){
+    .container-c {
+        width: 95%;
+        padding-top: 20px;
+        margin-left: 10px;
+        }
+        .submit-to-google-sheets {
+        width: 50%;
+        padding-top: 20px;
+        }
+        .sub-title-c,
+        p i {
+        font-size: 2.5rem;
+        }
 }
 
 /*contact responsive*/
