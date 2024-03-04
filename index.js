@@ -99,19 +99,12 @@ function descargarArchivo() {
 
 /*cv*/
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxd1eB0SK7ILhTWdD_aucXSUYmAOfSUYtYdcttaQzPWc6PKAMTo6KDz_IBFJHz7kSMC0Q/exec'
-const form = document.forms['submit-to-google-sheet']
-const msg = document.getElementById("msg")
+function sendEmail(){
+    let parms = {
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value,
+        message : document.getElementById("message").value,
+    }
 
-form.addEventListener('submit-to-google-sheet', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-    .then(response => {
-        msg.innerHTML = "message sent succesfully"
-        setTimeout(function(){
-            msg.innerHTML = ""
-        },5000)
-        form.reset()
-    })
-    .catch(error => console.error('Error!', error.message))
-})
+    emailjs.send("service_wyl2d47","template_3cg6973",parms).then(alert("Email Sent"))
+}
