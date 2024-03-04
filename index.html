@@ -10,6 +10,14 @@
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
 </script>
 
+<script type="text/javascript">
+(function(){
+    emailjs.init({
+        publicKey: "83m1G3EBgMW3aEhX",
+    });
+})();
+</script>
+
 </head>
 
 <body>
@@ -164,7 +172,7 @@
 <div id="contact">
     <div class="container-c">
         <div class="contact-right">
-            <form class="submit-to-google-sheets" onsubmit="sendEmail(); reset(); return false;">
+            <form class="submit-to-google-sheets">
                 <h1 class="sub-title-c">Contact Me</h1>
                 <input type="text" id="name" placeholder="Your Name" required>
                 <input type="email" id="email" placeholder="Your Email" required>
