@@ -99,4 +99,14 @@ function descargarArchivo() {
 
 /*cv*/
 
+function sendEmail(){
+    let parms = {
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value,
+        message : document.getElementById("message").value,
+    }
+
+    emailjs.send("service_wyl2d47","template_3cg6973",parms).then(alert("Email Sent"))
+}
+
 
