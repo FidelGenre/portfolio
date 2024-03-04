@@ -6,18 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Personal Portfolio Website - Fidel Genre </title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-
-<script type="text/javascript">
-(function(){
-    emailjs.init({
-        publicKey: "83m1G3EBgMW3aEhX",
-    });
-})();
-</script>
-
 </head>
 
 <body>
@@ -172,12 +160,13 @@
 <div id="contact">
     <div class="container-c">
         <div class="contact-right">
-            <form class="submit-to-google-sheets">
+            <form action="https://api.web3forms.com/submit" method="POST" class="submit-to-google-sheets">
+                <input type="hidden" name="access_key" value="09f4b68c-4a39-4326-a907-ee51665d7b97">
                 <h1 class="sub-title-c">Contact Me</h1>
-                <input type="text" id="name" placeholder="Your Name" required>
-                <input type="email" id="email" placeholder="Your Email" required>
-                <textarea id="message" rows="6" placeholder="Your Message" ></textarea>
-                <button type="submit" class="btn btn2" onclick="sendMail()">Submit</button>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" mame="email" placeholder="Your Email" required>
+                <textarea name="message" rows="6" placeholder="Your Message" ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
             </form>    
             <span id="msg"></span>
         </div>
