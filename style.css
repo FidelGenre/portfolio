@@ -669,9 +669,10 @@ nav .fa-solid{
     /*about responsive*/
 
     /*services and portfolio title responsive*/
-
+    
     .sub-title{
         font-size: 40px;
+        margin-top: 40px;
     }
 
     #about img{
@@ -680,6 +681,10 @@ nav .fa-solid{
 
     #services{
         padding-top: 0;
+    }
+
+    .work-list{
+        margin-top: 20px;
     }
 
     /*services and portfolio title responsive*/
