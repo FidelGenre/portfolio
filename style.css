@@ -51,7 +51,7 @@ body{
 
 }
 
-.sub-title{
+.sub-title1{
     text-align: center;
     margin-top: 3%;
     font-size: 60px;
@@ -61,6 +61,19 @@ body{
 }
 
 .sub-title:hover{
+    color: #ff004f;
+}
+
+.sub-title2{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 4px #333;
+}
+
+.sub-title2:hover{
     color: #ff004f;
 }
 
@@ -573,6 +586,8 @@ nav .fa-solid{
 
 @media only screen and (max-width: 1328px){
     /*home responsive*/
+
+
     #header{
         background-image: url(assets/formandibujito\ -\ Copy.jpg);
         background-color: #262626;
@@ -669,8 +684,13 @@ nav .fa-solid{
     /*about responsive*/
 
     /*services and portfolio title responsive*/
-    
-    .sub-title{
+
+    .sub-title1{
+        font-size: 40px;
+        margin-top: 0;
+    }
+
+    .sub-title2{
         font-size: 40px;
         margin-top: 40px;
     }
