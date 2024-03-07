@@ -41,7 +41,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(assets/formandibujito.jpg);
+    background-image: url(assets/wallpaperbetter.com_1920x1080\ \(2\).jpg);
     background-size: cover;
     background-position: center;
 }
@@ -50,6 +50,14 @@ body{
     padding: 10px 10%;
 
 }
+
+.containernav{
+    padding: 10px 10%;
+    background-color: rgba(0,0,0,0.3);
+    height: 11%;
+
+}
+
 
 .sub-title1{
     text-align: center;
@@ -136,8 +144,8 @@ nav ul li a:hover::after{
 
 .fidel{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 46%;
+    left: 35.5%;
     transform: translate(-50%, -50%);
     color: rgb(211, 199, 199);
     font-size: 2.4vw;
@@ -153,12 +161,12 @@ nav ul li a:hover::after{
 
 .genre{
     display: inline-block;
-    margin-left: 21.4%;
+    margin-left: 8%;
     letter-spacing: 5px;
     opacity: 0.9;
     position: absolute;
-    top: 50%;
-    left: 54.5%;
+    top: 46%;
+    left: 55%;
     transform: translate(-50%, -50%);
     color: rgb(211, 199, 199);
     font-size: 2.4vw;
@@ -175,8 +183,8 @@ nav ul li a:hover::after{
     position: absolute;
     letter-spacing: 5px;
     opacity: 0.9;
-    top: 68%;
-    left: 51.2%;
+    top: 60%;
+    left: 34.4%;
     transform: translate(-50%, -50%);
     color: rgb(211, 199, 199);
     font-size: 2.4vw;
@@ -192,8 +200,8 @@ nav ul li a:hover::after{
     letter-spacing: 5px;
     opacity: 0.9;
     position: absolute;
-    top: 68%;
-    left: 76%;
+    top: 60%;
+    left: 65%;
     transform: translate(-50%, -50%);
     color: rgb(211, 199, 199);
     font-size: 2.4vw;
@@ -485,7 +493,7 @@ nav ul li a:hover::after{
 #contact{
     width: 100%;
     height: 100vh;
-    background-image: url(assets/wallpaperbetter.com_1920x1080\ \(15\).jpg);
+    background-image: url(assets/pexels1.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -503,7 +511,8 @@ nav ul li a:hover::after{
 
 .submit-to-google-sheets{
     width: 20%;
-    padding-top: 31%;
+    padding-top: 33%;
+    margin-left: 50%;
 }
 
 .sub-title-c{
@@ -566,6 +575,7 @@ nav .fa-solid{
 
 @media only screen and (min-width: 1921px){
     
+
     .fidel{
         display: none;
     }
@@ -587,6 +597,9 @@ nav .fa-solid{
 @media only screen and (max-width: 1328px){
     /*home responsive*/
 
+    .containernav{
+        background-color: rgba(0,0,0,0.0);
+    }
 
     #header{
         background-image: url(assets/formandibujito\ -\ Copy.jpg);
@@ -652,12 +665,12 @@ nav .fa-solid{
     }
 
     .container-c {
-        width: 90%;
-        padding-top: 290px;
-        margin-left: 35px;
+        width: 70%;
+        padding-top: 370px;
+        margin-left: -20%;
         }
         .submit-to-google-sheets {
-        width: 40%;
+        width: 60%;
         padding-top: 30px;
         }
         .sub-title-c,
@@ -665,6 +678,7 @@ nav .fa-solid{
         font-size: 2.5rem;
         }
     
+
 
     /*home responsive*/
 
@@ -707,6 +721,11 @@ nav .fa-solid{
         margin-top: 20px;
     }
 
+    .contact-right form{
+        width: 100%;
+    
+    }
+
     /*services and portfolio title responsive*/
 
 }
@@ -715,36 +734,36 @@ nav .fa-solid{
 
 @media (max-width: 960px) {
     .container-c {
-    width: 90%;
-    padding-top: 150px;
-    margin-left: 35px;
-    }
-    .submit-to-google-sheets {
-    width: 40%;
-    padding-top: 30px;
-    }
-    .sub-title-c,
-    p i {
-    font-size: 2.5rem;
-    }
-
+        width: 70%;
+        padding-top: 230px;
+        margin-left: -20%;
+        }
+        .submit-to-google-sheets {
+        width: 60%;
+        padding-top: 30px;
+        }
+        .sub-title-c,
+        p i {
+        font-size: 2.5rem;
+        }
+    
 
 }
 
 @media (max-width: 480px) {
     .container-c {
-    width: 95%;
-    padding-top: 120px;
-    margin-left: 10px;
-    }
-    .submit-to-google-sheets {
-    width: 50%;
-    padding-top: 20px;
-    }
-    .sub-title-c,
-    p i {
-    font-size: 2.5rem;
-    }
+        width: 70%;
+        padding-top: 100px;
+        margin-left: -20%;
+        }
+        .submit-to-google-sheets {
+        width: 60%;
+        padding-top: 30px;
+        }
+        .sub-title-c,
+        p i {
+        font-size: 2.5rem;
+        }
 
     /*about responsive*/
 
@@ -813,13 +832,13 @@ nav .fa-solid{
 
 @media (max-width: 330px){
     .container-c {
-        width: 95%;
-        padding-top: 6%;
-        margin-left: 10px;
+        width: 70%;
+        padding-top: 5px;
+        margin-left: -20%;
         }
         .submit-to-google-sheets {
-        width: 50%;
-        padding-top: 6%;
+        width: 60%;
+        padding-top: 30px;
         }
         .sub-title-c,
         p i {
