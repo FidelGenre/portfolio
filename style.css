@@ -539,7 +539,6 @@ p i{
 
 .btn.btn2:hover{
     background-color: #ff004f;
-    border-color: #ff004f;
 }
 
 .contact-right form{
@@ -845,6 +844,78 @@ nav .fa-solid{
         font-size: 2.5rem;
         }
 }
+
+@media (max-height: 450px){
+    
+    .container-c {
+        width: 70%;
+        padding-top: 4px;
+        margin-left: -20%;
+        }
+        .submit-to-google-sheets {
+        width: 60%;
+        padding-top: 4px;
+        }
+        .sub-title-c,
+        p i {
+        font-size: 2.5rem;
+    }
+    
+    form input, form textarea{
+        width: 100%;
+        border: 0;
+        outline: none;
+        background: #262626;
+        padding: 15px;
+        margin: 3px 0;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 6px;
+    }
+    
+    .btn.btn2{
+        display: inline-block;
+        background: #262626;
+        border-color: #ff004f;
+        margin-top: 5px;
+    }
+}
+
+@media (max-height: 390px){
+    .container-c {
+        width: 70%;
+        padding-top: 1px;
+        margin-left: -20%;
+        }
+        .submit-to-google-sheets {
+        width: 60%;
+        padding-top: 1px;
+        }
+        .sub-title-c,
+        p i {
+        font-size: 2.5rem;
+    }
+    
+    form input, form textarea{
+        width: 100%;
+        border: 0;
+        outline: none;
+        background: #262626;
+        padding: 15px;
+        margin: 2px 0;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 6px;
+    }
+    
+    .btn.btn2{
+        display: inline-block;
+        background: #262626;
+        border-color: #ff004f;
+        margin-top: 2px;
+    }
+}
+
 
 /*contact responsive*/
 
