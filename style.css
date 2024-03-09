@@ -904,7 +904,7 @@ nav .fa-solid{
         padding: 15px;
         margin: 2px 0;
         color: #fff;
-        font-size: 18px;
+        font-size: 14px;
         border-radius: 6px;
     }
     
@@ -916,6 +916,76 @@ nav .fa-solid{
     }
 }
 
+@media (max-height: 330px){
+    .container-c{
+        width: 40%;
+        text-align: center;
+        margin-left: 8.6%;
+        margin-top: 1px;
+    }
+    
+    .contact-right{
+        flex-basis: 60%;
+    }
+    
+    
+    .submit-to-google-sheets{
+        width: 20%;
+        padding-top: 1%;
+        margin-left: 50%;
+    }
+    
+    .sub-title-c{
+        color: #ffffff;
+        font-size: 200%;
+        text-shadow: 2px 2px 4px #333;
+    }
+    
+    .sub-title-c:hover{
+        color: #ff004f;
+    }
+    
+    p i{
+        color: #ff004f;
+        margin-right: 15px;
+        font-size: 25px;
+    }
+    
+    .btn.btn2{
+        display: inline-block;
+        background: #262626;
+        border-color: #ff004f;
+    }
+    
+    .btn.btn2:hover{
+        background-color: #ff004f;
+    }
+    
+    .contact-right form{
+        width: 100%;
+    
+    }
+    
+    form input, form textarea{
+        width: 100%;
+        border: 0;
+        outline: none;
+        background: #262626;
+        padding: 15px;
+        margin: 1px 0;
+        color: #fff;
+        font-size: 11px;
+        border-radius: 6px;
+    }
+    
+    form btn2{
+        padding: 14px 60px;
+        font-size: 18px;
+        margin-top: 3px;
+        cursor: pointer;
+    }
+
+}
 
 /*contact responsive*/
 
