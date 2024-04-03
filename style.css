@@ -46,6 +46,10 @@ body{
     background-position: center;
 }
 
+#sidemenu{
+    font-family: cursive
+}
+
 .container{
     padding: 10px 10%;
 
@@ -143,6 +147,7 @@ nav ul li a:hover::after{
 
 
 .fidel{
+    font-family: cursive;
     position: absolute;
     top: 46%;
     left: 35.5%;
@@ -160,6 +165,7 @@ nav ul li a:hover::after{
 }
 
 .genre{
+    font-family: cursive;
     display: inline-block;
     margin-left: 8%;
     letter-spacing: 5px;
@@ -179,6 +185,7 @@ nav ul li a:hover::after{
 }
 
 .software{
+    font-family: cursive;
     display: inline-block;
     position: absolute;
     letter-spacing: 5px;
@@ -197,6 +204,7 @@ nav ul li a:hover::after{
 }
 
 .developer{
+    font-family: cursive;
     letter-spacing: 5px;
     opacity: 0.9;
     position: absolute;
