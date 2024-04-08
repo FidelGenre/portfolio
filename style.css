@@ -33,7 +33,7 @@ html{
 }
 
 body{
-    background: #080808;
+    background:;
     color: #fff;
 
 }
@@ -52,6 +52,7 @@ body{
 
 .container{
     padding: 10px 10%;
+    background: #080808;
 
 }
 
@@ -228,7 +229,7 @@ nav ul li a:hover::after{
 
 #about{
     padding: 80px 0;
-    color: #ababab;
+    background-color: black;
 }
 
 .row{
@@ -357,6 +358,7 @@ nav ul li a:hover::after{
 
 #services{
     padding: 30px 0;
+    background: #080808;;
 }
 
 .services-list{
