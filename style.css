@@ -478,7 +478,7 @@ nav ul li a:hover::after{
 }
 
 .btn{
-    display: block;
+    display: flex;
     margin: 30px auto;
     width: fit-content;
     border: 1px solid #ff004f;
@@ -541,13 +541,20 @@ p i{
     font-size: 25px;
 }
 
-.btn.btn2{
-    display: inline-block;
-    background: #262626;
-    border-color: #ff004f;
+.submit{
+    display: flex;
+    margin: 30px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #cfbec3;
+    color: white;
+    transition: background 0.5s;
 }
 
-.btn.btn2:hover{
+.submit:hover{
     background-color: #ff004f;
 }
 
@@ -568,7 +575,7 @@ form input, form textarea{
     border-radius: 6px;
 }
 
-form btn2{
+form submit{
     padding: 14px 60px;
     font-size: 18px;
     margin-top: 20px;
@@ -885,7 +892,7 @@ nav .fa-solid{
     
     .btn.btn2{
         display: inline-block;
-        background: #262626;
+        /*background: #262626;*/
         border-color: #ff004f;
         margin-top: 5px;
     }
@@ -921,7 +928,7 @@ nav .fa-solid{
     
     .btn.btn2{
         display: inline-block;
-        background: #262626;
+        /*background: #262626;*/
         border-color: #ff004f;
         margin-top: 5px;
     }
@@ -956,7 +963,7 @@ nav .fa-solid{
     
     .btn.btn2{
         display: inline-block;
-        background: #262626;
+        /*background: #262626;*/
         border-color: #ff004f;
         margin-top: 2px;
     }
@@ -999,7 +1006,7 @@ nav .fa-solid{
     
     .btn.btn2{
         display: inline-block;
-        background: #262626;
+        /*background: #262626;*/
         border-color: #ff004f;
     }
     

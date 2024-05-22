@@ -93,7 +93,7 @@ irArriba();
 
 function descargarArchivo() {
     if (confirm("¿Deseas descargar el archivo?")) {
-    window.location.href = "https://drive.google.com/file/d/16GCov619nRPSfBH6JD45A6tATAm5QV1d/view?usp=drive_link";
+    window.location.href = "https://drive.google.com/file/d/1I1v0viIQMb069sIuJeIsrybqiMXAwceZ/view?usp=drive_link";
     }
 }
 
