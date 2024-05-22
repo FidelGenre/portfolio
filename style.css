@@ -541,7 +541,7 @@ p i{
     font-size: 25px;
 }
 
-.submit{
+.btn.btn2{
     display: flex;
     margin: 30px auto;
     width: fit-content;
@@ -554,7 +554,7 @@ p i{
     transition: background 0.5s;
 }
 
-.submit:hover{
+.btn.btn2:hover{
     background-color: #ff004f;
 }
 
@@ -575,7 +575,7 @@ form input, form textarea{
     border-radius: 6px;
 }
 
-form submit{
+form.btn2{
     padding: 14px 60px;
     font-size: 18px;
     margin-top: 20px;
