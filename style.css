@@ -549,7 +549,7 @@ p i{
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    background-color: #cfbec3;
+    background-color: rgba(0,0,0,0.8);
     color: white;
     transition: background 0.5s;
 }
