@@ -32,6 +32,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: white;
+}
+
 #header{
     width: 100%;
     height: 100vh;
@@ -91,7 +95,7 @@ nav{
 
 .logo{
     width: 140px;
-    margin-left: 70px;
+    margin-left: %;
 }
 
 nav ul li{
@@ -625,7 +629,7 @@ nav .fa-solid{
     }
 
     #header{
-        background-image: url(assets/formandibujito\ -\ Copy.jpg);
+        /*background-image: url(assets/formandibujito\ -\ Copy.jpg);*/
         background-color: #262626;
     }
     .header-text{
@@ -899,7 +903,6 @@ nav .fa-solid{
     
     .btn.btn2{
         display: inline-block;
-        /*background: #262626;*/
         border-color: #ff004f;
         margin-top: 5px;
     }
@@ -935,7 +938,6 @@ nav .fa-solid{
     
     .btn.btn2{
         display: inline-block;
-        /*background: #262626;*/
         border-color: #ff004f;
         margin-top: 5px;
     }
@@ -970,7 +972,6 @@ nav .fa-solid{
     
     .btn.btn2{
         display: inline-block;
-        /*background: #262626;*/
         border-color: #ff004f;
         margin-top: 2px;
     }
@@ -1013,7 +1014,6 @@ nav .fa-solid{
     
     .btn.btn2{
         display: inline-block;
-        /*background: #262626;*/
         border-color: #ff004f;
     }
     
